@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '8y$ax0aaxx4)n^fqs_%u+a7__pu$y5**o_oidmn3x+%(o#@b5e'
+SECRET_KEY = '需要重新设置'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -95,8 +95,8 @@ DATABASES = {
         'NAME': 'aurora',
         'HOST': '127.0.0.1',
         'PORT': 3306,
-        'USER': 'root',
-        'PASSWORD': 'root' ,
+        'USER': '需要重新设置',
+        'PASSWORD': '需要重新设置' ,
         'OPTIONS': {'charset': 'utf8mb4'}, #设置字符集
     }
 }
@@ -121,15 +121,15 @@ USE_TZ = False
 
 # 配置邮箱
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.163.com'
+EMAIL_HOST = 'SMTP服务器域名'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'AugustTheodor@163.com'
+EMAIL_HOST_USER = 'EMAIL'
 #授权码
-EMAIL_HOST_PASSWORD = 'HTJILORRTHBNLJBB'
+EMAIL_HOST_PASSWORD = 'EMAIL 授权码'
 EMAIL_FROM = '<破晓的Augustine>'
 #URL
-DOMAIN="http://1.116.250.29"
-LATEST_VERSION="0_2_0"
+DOMAIN="重新设置域名"
+LATEST_VERSION="重新设置版本"
 APP_LATEST_DOWNLOAD="/aurora/file/app/Aurora{0}.apk".format(LATEST_VERSION)
 
 # Static files (CSS, JavaScript, Images)
